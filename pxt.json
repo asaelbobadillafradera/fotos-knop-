@@ -1,0 +1,28 @@
+{
+    "name": "foto's knop ",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "servo": "*",
+        "microbit-pxt-blehid": "github:bsiever/microbit-pxt-blehid#v0.0.23",
+        "gigglebot": "github:dexterind/pxt-gigglebot#v2.0.3",
+        "bluetooth-temperature-sensor": "github:microsoft/pxt-bluetooth-temperature-sensor#v0.0.11",
+        "bluetooth-midi": "github:microsoft/pxt-bluetooth-midi#v2.0.13"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ]
+}
